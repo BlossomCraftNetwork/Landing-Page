@@ -222,3 +222,18 @@ p {
 		margin-left: 90px;
 	}
 }
+
+.voting {
+  width: 800px;
+}
+.voting a{
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.voting a:hover {
+  background-color: #ccc;
+}
