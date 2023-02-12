@@ -1,14 +1,13 @@
 <html>
 <head>
-<meta http-equiv="refresh" content="0; url='https://www.dropbox.com/s/7f86vb7s78ho9pv/BlossomCraftOfficial4.02.zip?dl=1'" />
 </head>
-<body onload="waitOneSec()">
+<body>
 <p>Please follow <a href="https://www.dropbox.com/s/7f86vb7s78ho9pv/BlossomCraftOfficial4.02.zip?dl=1">this link</a>.</p>
 <script>
-  function waitFiveSec(){
-    setTimeout(function, milliseconds) /*(here you need to implement delay code)*/
-    window.close();
-  }
+var popout = window.open("https://www.dropbox.com/s/7f86vb7s78ho9pv/BlossomCraftOfficial4.02.zip?dl=1");
+window.setTimeout(function(){
+    popout.close();
+}, 1000);
 </script>
 
 </body>
